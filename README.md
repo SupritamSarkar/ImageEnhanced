@@ -1,12 +1,67 @@
-# React + Vite
+🖼️ Image Enhancement Web App
+This is a React-based web application that allows users to enhance and deblur images effortlessly using the PicWish API. Built with Vite for blazing-fast performance and modern development experience, the app offers a clean, responsive UI and a streamlined workflow.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+http://ssimageenhance.netlify.app/
 
-Currently, two official plugins are available:
+✨ Features
+📤 Upload an image from your device
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧠 Automatically enhance the image using PicWish AI
 
-## Expanding the ESLint configuration
+🔍 Improve clarity, remove blur, and fix pixelation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Preview side-by-side comparison of original vs enhanced image
+
+📥 Download the enhanced image with a single click
+
+🎯 Clean, responsive UI with Tailwind CSS
+
+🌐 Fully deployable with Netlify or similar platforms
+
+🔧 Tech Stack
+React + Vite ⚛️
+
+Tailwind CSS 🎨
+
+PicWish API (for AI-powered image enhancement) 🤖
+
+Netlify (for deployment) 🚀
+
+🚀 How to Use
+Clone the repository and install dependencies:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/image-enhancer.git
+cd image-enhancer
+npm install
+Add your PicWish API key in an environment variable or configuration file.
+
+Run the app locally:
+
+bash
+Copy
+Edit
+npm run dev
+Upload an image and get the enhanced version instantly.
+
+Download the result and use it anywhere you like!
+
+🌍 Deployment
+To deploy on Netlify:
+
+Push your code to GitHub
+
+Go to Netlify
+
+Click "Add new site" → "Import from Git"
+
+Connect your GitHub repo
+
+Set build command to npm run build
+
+Set publish directory to dist
+
+Deploy and you’re live!
+
